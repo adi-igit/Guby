@@ -1,0 +1,56 @@
+.footer{
+  padding-bottom: 30px;
+}
+
+.footer h5{
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.list_item{
+  background: transparent !important;
+  padding-left: 0 !important;
+  border: 0 !important;
+}
+
+.list_item a {
+  text-decoration: none;
+  color: #fff;
+  opacity: 85%;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.newsletter{
+  width: 100%;
+  border-radius: 50px;
+  color: #333;
+  padding: 8px 25px;
+  margin: 20px 0px;
+  border: 0;
+  outline: none;
+  font-size: 0.8rem;
+}
+
+::placeholder{
+  color: #333;
+  opacity: 85%;
+}
+
+.social_links span a i{
+  font-size: 1.5rem;
+}
+
+.social_links span a{
+  text-decoration: none;
+  color: #fff;
+  transition: .3s;
+}
+
+.social_links span a:hover{
+  color: #e250e2;
+}
+
+.copyright{
+  font-size: 0.8rem;
+}

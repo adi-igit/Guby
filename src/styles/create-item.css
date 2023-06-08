@@ -1,0 +1,45 @@
+.form_input input,
+.form_input textarea {
+  width: 100%;
+  padding: 7px 25px;
+  color: #fff;
+  font-size: 0.8rem;
+  background: transparent;
+  border: 1px solid #dddddd3f;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form_input input::placeholder,
+.form_input textarea::placeholder {
+  color: #fff;
+}
+
+.form_input {
+  margin-bottom: 15px;
+}
+
+.form_input label {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.form_input .upload_input {
+  padding: 40px 25px;
+}
+
+.form_input textarea {
+  height: 200px;
+}
+
+::-webkit-calendar-picker-indicator{
+  filter: invert(1);
+  cursor: pointer;
+}
+
+@media (max-width: 576px){
+  .create_item{
+    margin-top: 15px;
+  }
+}
