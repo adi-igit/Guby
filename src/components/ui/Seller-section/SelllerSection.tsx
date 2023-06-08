@@ -1,6 +1,5 @@
 import "./seller-section.css";
 import { Container, Row, Col } from "reactstrap";
-import ava01 from "../../../assets/images/ava-01.png";
 import { SELLER__DATA } from "../../../assets/data/data";
 
 type Props = {};
