@@ -1,5 +1,7 @@
-import { useLayoutEffect } from "react";
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.css";
+import "remixicon/fonts/remixicon.css";
+import { useLayoutEffect } from "react";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Contact from "./pages/Contact";
