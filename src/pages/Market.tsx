@@ -1,10 +1,10 @@
+import "../styles/market.css";
 import { useState } from 'react';
 import CommonSection from "../components/ui/Common-section/CommonSection";
 import { motion } from "framer-motion";
 import { Container, Row, Col } from "reactstrap";
 import NftCard from "../components/ui/Nft-card/NftCard";
 import { NFT__DATA } from "../assets/data/data";
-import "../styles/market.css";
 
 type Props = {};
 
@@ -47,7 +47,7 @@ const Market = ({}: Props) => {
               <div className="market_product_filter my-5 d-flex align-items-center justify-content-between">
                 <div className="filter_left d-flex align-items-center gap-5">
                   <div className="all_category_filter">
-                    <select onChange={handleCategory}>
+                    <select className='market_select' onChange={handleCategory}>
                       <option>All Categories</option>
                       <option value="art">Art</option>
                       <option value="music">Music</option>
@@ -57,7 +57,7 @@ const Market = ({}: Props) => {
                     </select>
                   </div>
                   <div className="all_items_filter">
-                    <select onChange={handleItems}>
+                    <select className='market_select' onChange={handleItems}>
                       <option>All Items</option>
                       <option value="single-item">Single Item</option>
                       <option value="bundle">Bundle</option>
@@ -65,7 +65,7 @@ const Market = ({}: Props) => {
                   </div>
                 </div>
                 <div className="filter_right">
-                  <select onChange={handleSort}>
+                  <select className='market_select' onChange={handleSort}>
                     <option>Sort By</option>
                     <option value="high">High Rate</option>
                     <option value="mid">Mid Rate</option>

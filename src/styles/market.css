@@ -1,6 +1,4 @@
-.all_category_filter select,
-.all_items_filter select,
-.filter_right select {
+.market_select {
   padding: 8px 25px;
   font-size: 0.9rem;
   color: #fff;
@@ -11,9 +9,7 @@
 }
 
 @media (max-width: 768px) {
-  .all_category_filter select,
-  .all_items_filter select,
-  .filter_right select {
+  .market_select {
     padding: 10px 20px;
     font-size: 0.7rem;
   }
